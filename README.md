@@ -1,1 +1,0 @@
-# immich-app-portainer-setup
