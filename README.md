@@ -29,7 +29,7 @@ It is a community example to help you configure the two services together on **S
 ## Prerequisites
 
 - Synology NAS with Docker installed  
-- [Portainer](https://www.portainer.io/) running on your NAS  
+- [Portainer](https://www.portainer.io/) running on your NAS you can follow [MariusHosting](https://mariushosting.com/synology-30-second-portainer-install-using-task-scheduler-docker/) guide for this.   
 - Basic knowledge of editing `.env` files and Portainer stacks  
 
 ## Usage
