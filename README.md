@@ -34,10 +34,12 @@ It is a community example to help you configure the two services together on **S
 
 ## Usage
 
-1. Clone/download this repo to your NAS.  
-2. Copy `stack.env.` to `stack.env` and adjust values for your environment. or just copy and paste the contents in the advanced env editor in Portainer  
-3. Deploy the `docker-compose.yml` as a stack in Portainer.  
-4. Verify both services are running:
+1. Clone/download this repo to your NAS.
+2. Make sure the following folders exist on your nas `/yourvolume/docker/immich`
+3. Make sure that in the `immich` folder you have the following folders present `redis`, `db`, `matplotlib`, `micro`, `cache`, `redis` and `upload`   
+4. Copy `stack.env.` to `stack.env` and adjust values for your environment. or just copy and paste the contents in the advanced env editor in Portainer  
+5. Deploy the `docker-compose.yml` as a stack in Portainer.  
+6. Verify both services are running:
    - Immich: `http://<NAS-IP>:8212` (default)  
    - PowerTools: `http://<NAS-IP>:8001` (default)
 
