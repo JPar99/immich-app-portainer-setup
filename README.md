@@ -12,7 +12,7 @@ This repository provides **stack `.env` and `docker-compose.yml` files** to depl
   A companion service that extends Immich with advanced features such as integrations and automation.
 
 This project is **not the official Immich or PowerTools repository**.  
-It is a community example to help you configure the two services together on **Synology NAS with Portainer**.
+It is a community example to help you configure the two services together on **Synology NAS with Portainer**. **This runs also on the PG16 release with 0.4.3 and 0.2.0, keep in mind that this differs from the reccomendations from the developers**
 
 ## Why this repo?
 
